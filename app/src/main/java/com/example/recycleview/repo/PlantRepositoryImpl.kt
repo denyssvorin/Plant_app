@@ -49,7 +49,7 @@ class PlantRepositoryImpl @Inject constructor(
                     result = currentContentUri.toString()
 
                 } else {
-                    Log.d("TAG", "mapPhotosFromExternalStorage: error")
+                    Log.e("TAG", "mapPhotosFromExternalStorage: error")
                 }
                 result
             } ?: "null"
